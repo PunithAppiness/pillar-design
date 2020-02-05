@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pillar Design</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.min.css" />
+
+  <!-- owl carousel cdn -->
+  <link rel="stylesheet" href="./dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./dist/assets/owl.theme.default.min.css" />
+
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="parallax.js-1.5.0/parallax.min.js"></script>
+</head>
+
+<body>
+  <!-- navigation--------------------------------------------------------------------------------- -->
+  <div class="navigation-bar">
+    <nav class="navbar navbar-expand-md navbar-default fixed-top">
+      <a class="navbar-brand" href="#"><strong> Piller.</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-outdent"></span>
+      </button>
+
+      <!-- dropdown----------------------------------------------- -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="nav-module menu-module left">
+
+
+          <ul class="navbar-nav mr-auto">
+            <!-- first dropdown------------------------------------------ -->
+            <li class="nav-item active dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                HOME
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">Business Layouts</a></li>
+                      <li><a href="#">Classic</a></li>
+                      <li><a href="#">Corporate</a></li>
+                      <li><a href="#">Startup</a></li>
+                      <li><a href="#">Startup 2</a></li>
+                      <li><a href="#">Agency</a></li>
+                      <li><a href="#">Creative</a></li>
+                      <li><a href="#">Split Cover</a></li>
+                      <li><a href="#">Elegant</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-2">
+                      <li><a href="#">Landing Pages</a></li>
+                      <li><a href="#">Listing 1</a></li>
+                      <li><a href="#">Product 1</a></li>
+                      <li><a href="#">Product 2</a></li>
+                      <li><a href="#">Service 1</a></li>
+                      <li><a href="#">Service 2</a></li>
+                      <li><a href="#">Service 3</a></li>
+                      <li><a href="#">Service 4</a></li>
+                      <li><a href="#">Application</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-3">
+                      <li><a href="#">Niche</a></li>
+                      <li><a href="#">Politician</a></li>
+                      <li><a href="#">Wedding New!</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">Shop Media</a></li>
+                      <li><a href="#">Shop Slider</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Case Studies</a></li>
+                      <li><a href="#">Column</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- second dropdown------------------------------------------ -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PAGES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Accounts</a></li>
+                      <li><a href="#">Utility</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- third dropdown------------------------------------------ -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#navbarDropdown3" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                WORK
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">Portfolios</a></li>
+                      <li><a href="#">Cards Large</a></li>
+                      <li><a href="#">Cards Small</a></li>
+                      <li><a href="#">Masonry Contained</a></li>
+                      <li><a href="#">Masonry Wide</a></li>
+                      <li><a href="#">Vanilla Contained</a></li>
+                      <li><a href="#">Vanilla Wide</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-2">
+                      <li><a href="#">Single Projects</a></li>
+                      <li><a href="#">Simple Slider</a></li>
+                      <li><a href="#"> Image Boxes</a></li>
+                      <li><a href="#">Stacked Image</a></li>
+                      <li><a href="#">Stacked Video</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-3">
+                      <li><a href="#">Galleries</a></li>
+                      <li><a href="#">Images Contained</a></li>
+                      <li><a href="#">Images Wide</a></li>
+                      <li><a href="#">Modals Contained</a></li>
+                      <li><a href="#">Modals Wide</a></li>
+                      <li><a href="#">Video Contained</a></li>
+                      <li><a href="#">Video Wide</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- fourth dropdown------------------------------------------ -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                SHOP
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">Shop Layouts</a></li>
+                      <li><a href="#">Cards Small</a></li>
+                      <li><a href="#">Cards Large</a></li>
+                      <li><a href="#">Cards Sidebar</a></li>
+                      <li><a href="#">Masonry Wide</a></li>
+                      <li><a href="#">Masonry Contained</a></li>
+                      <li><a href="#">Masonry Sidebar</a></li>
+                      <li><a href="#">HOVER TILES</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-2">
+                      <li><a href="#">Product Layouts</a></li>
+                      <li><a href="#">Centered Single</a></li>
+                      <li><a href="#">Image Header Single</a></li>
+                      <li><a href="#">Vanilla Single</a></li>
+                      <li><a href="#">Utility Pages</a></li>
+                      <li><a href="#">Cart Overview</a></li>
+                      <li><a href="#">Cart Checkout</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- fifth dropdown------------------------------------------ -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown5" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                BLOG
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">Listing Layouts</a></li>
+                      <li><a href="#">Cards Large</a></li>
+                      <li><a href="#">Cards Small</a></li>
+                      <li><a href="#">Cards Sidebar</a></li>
+                      <li><a href="#">Vanilla Column</a></li>
+                      <li><a href="#">Vanilla sidebar</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-2">
+                      <li><a href="#">Post layouts</a></li>
+                      <li><a href="#">Audio Single</a></li>
+                      <li><a href="#">Image Header Single</a></li>
+                      <li><a href="#">Vanilla Single</a></li>
+                      <li><a href="#">Video Single</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- sixth dropdown------------------------------------------ -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown6" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                ELEMENTS
+              </a>
+              <div class="dropdown-menu " aria-labelledby="navbarDropdown6">
+                <ul class=" d-flex multi-column">
+                  <li class="columns">
+                    <ul class="column-1">
+                      <li><a href="#">Accordians</a></li>
+                      <li><a href="#">Buttons</a></li>
+                      <li><a href="#">Cards</a></li>
+                      <li><a href="#">Cover Sections</a></li>
+                      <li><a href="#">Form-Elements</a></li>
+                      <li><a href="#">Forms-Subscribe</a></li>
+                      <li><a href="#">Footers</a></li>
+                      <li><a href="#">Hover Tiles</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-2">
+                      <li><a href="#">Icon Combination</a></li>
+                      <li><a href="#">Maps</a></li>
+                      <li><a href="#">Modals</a></li>
+                      <li><a href="#">Navigation</a></li>
+                      <li><a href="#">Notification</a></li>
+                      <li><a href="#">Parallax</a></li>
+                      <li><a href="#">Pricing-Options</a></li>
+                      <li><a href="#">Progress-Bars</a></li>
+                      <li><a href="#">Progress-Radials</a></li>
+                    </ul>
+                  </li>
+                  <li class="columns">
+                    <ul class="column-3">
+                      <li><a href="#">Sliders</a></li>
+                      <li><a href="#">Tabbed-Content</a></li>
+                      <li><a href="#">Testamonials</a></li>
+                      <li><a href="#">Twitter-feed</a></li>
+                      <li><a href="#">Typography</a></li>
+                      <li><a href="#">Video-Players</a></li>
+                      <li><a href="#">Video-Backgrounds</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- right icon search and cart -->
+
+        <div class="nav-module menu-module right">
+          <div class="firsticon">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#Modal-search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+
+
+          </div>
+          <div class="secondicon">
+            <button type="button" class="btn btn-default" id="cartButton">
+              <i class="fa fa-shopping-bag">
+              </i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- cart-popout -->
+
+
+  <div class="cart-pop" id="slide-cart">
+    <div class="heading">
+      <h3>Your Cart</h3>
+      <button class="btn btn-light btn-circle btn-circle-lg my-auto " id="within-close">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="data">
+      <div class="product-1">
+        <img src="images/product-small-1.png" alt="cart1" width="100px" height="100px">
+        <div class="name">
+          <h4> Dave Wool Beanie</h4>
+          <p>1 x $39.00</p>
+        </div>
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="product-2">
+        <img src="images/product-small-2.png" alt="cart1" width="100px" height="100px">
+        <div class="name">
+          <h4> Rose Tinted Glasses</h4>
+          <p>1 x $89.00</p>
+        </div>
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <div class="checkout">
+      <div class="total">
+        <h4>Subtotal:</h4>
+        <p>$128.00</p>
+      </div>
+      <button class="btn btn-primary" type="button">CHECKOUT NOW</button>
+    </div>
+  </div>
+
+
+  <!-- Modal ---------------------------------------------------------------------------->
+
+  <div class="modal fade" id="Modal-search" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="input-group  border rounded-pill p-1">
+            <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon3"
+              class="form-control bg-none border-0">
+            <div class="input-group-append border-0">
+              <button id="button-addon3" type="button" class="btn btn-link text-success"><i
+                  class="fa fa-search"></i></button>
+            </div>
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- paralax form ----------------------------------------------------------->
+
+  <section class="parallax-main">
+    <div class="parallax">
+      <div class="parallax-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 my-auto">
+              <h2>Build smart, effective websites in no time with Pillar</h2>
+              <div class="circle">
+                <span><button class="btn btn-light btn-circle btn-circle-lg my-auto">
+                    <i class="fa fa-play"></i>
+                  </button>
+                  &nbsp;&nbsp; watch the overview</span>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="card b-0">
+                <h2>Keep Informed</h2>
+                <h3>Subscribe for free resources and news updates.</h3>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputname">Your Name</label>
+                    <input type="text" class="form-control" id="exampleInputname" placeholder="Your Name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Enter email" /><i class=" fa fa-envelop-o"></i>
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- person section -->
+
+  <div class="person">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <div class="person-content">
+            <h3><strong> It's Your Site,</strong> Your Way.</h3>
+            <h4>
+              Pillar features a plethora of content blocks and layouts to
+              create your website.
+            </h4>
+            <h5>Export to HTML</h5>
+            <p>
+              Don’t waste time with complex server-side install setups.
+              Variant runs locally from your machine, it’s that simple.
+            </p>
+            <h5>Beautiful Font Combinations</h5>
+            <p>
+              Achieve the right visual tone for your business with our
+              helpfully themed font pairings.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img class="avatar" src="images/avatar-large-1.png" alt="employee" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- developer frirndly ---------------------------------------------------------------------------->
+  <div class="developer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="h-icon">
+            <span>
+              <i class="fab fa-gg-circle" style="font-size: 55px; color: #000;"></i>
+            </span>
+            <h4>Your Site, Your Way.</h4>
+            <p>
+              Offering a range of unique themed font pairings means that
+              achieving the perfect visual tone for your project.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="h-icon2">
+            <span>
+              <i class="fas fa-laptop-code" style="font-size: 55px; color: #000;"></i>
+            </span>
+            <h4>Developer Friendly</h4>
+            <p>
+              We've worked hard to make Pillar a flexible base of code from
+              which developers can construct feature-rich sites.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="h-icon">
+            <span>
+              <i class="far fa-window-maximize" style="font-size: 55px; color: #000;"></i>
+            </span>
+            <h4>Modular and Reusable</h4>
+            <p>
+              Combine Pillar's hand-crafted components to create elegant,
+              cohesive pages that work equally well as one or multi-page
+              sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second parallax----------------------------------------------------------------- -->
+
+  <section class="parallax-second">
+    <div class="parallax-2">
+      <div class="parallax-content-2">
+        <h2>Bold, Simple, <em>Robust.</em></h2>
+        <h4>
+          Pillar features a bevvy of content blocks and layouts to create your
+          website.
+        </h4>
+
+        <div class="container">
+          <div class="white-block">
+            <div class="row">
+              <div class="col-sm-6 my-auto">
+                <div class="second">
+                  <span>
+                    <i class="far fa-window-restore" style="font-size: 55px; color: #fff;"></i>
+                  </span>
+                  <h5>Lovingly Crafted Components</h5>
+                  <h3>
+                    Tailored for modern startups, portfolios shops and more.
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-sm-6 my-auto">
+                <div class="second">
+                  <span>
+                    <i class="fas fa-medal" style="font-size: 55px; color: #fff;"></i>
+                  </span>
+                  <h5>Highly Regarded Author</h5>
+                  <h3>
+                    Awarded by Envato for providing high quality products.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- customer call -------------------------------------------------------------------------------->
+  <div class="customer-love">
+    <h2>Customers Love Pillar</h2>
+    <h4>
+      High quality deisgn and ease-of-use combine to form a product that
+      designers and developers are crazy about.
+    </h4>
+    <div class="container">
+      <div class="love">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="rounded" src="images/avatar-small-1.png" alt="customer1" />
+              <div class="card-body">
+                <p>
+                  “Medium Rare have done it again! Pillar has become my new
+                  'go-to' template for client projects”
+                </p>
+                <h5>Fiona Hartwell</h5>
+                <h6><em>Interface Designer</em></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="rounded" src="images/avatar-small-2.png" alt="customer2" />
+              <div class="card-body">
+                <p>
+                  “Flexible, easy to use, stunning to look at, this template
+                  has it all - and the code is top notch”
+                </p>
+                <h5>Boris Vaun</h5>
+                <h6><em>Front-End Developer</em></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="rounded" src="images/avatar-small-3.png" alt="customer3" />
+              <div class="card-body">
+                <p>
+                  “As expected, Pillar is a fantastic product that made
+                  creating our landing page an absolute breeze”
+                </p>
+                <h5>David Stilwell</h5>
+                <h6><em>Art Director</em></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- table pricing---------------------------------------------------------------------------------- -->
+
+  <section class="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="table-responsive-sm">
+            <table class="table table-striped my-auto">
+              <thead>
+                <tr class="short-header">
+                  <td scope="col"></td>
+                  <td scope="row">Freelance</td>
+                  <td scope="col">Agency</td>
+                  <td scope="col">Commercial</td>
+                </tr>
+                <tr class="large-header">
+                  <th scope="col"></th>
+                  <th scope="col">Free</th>
+                  <th scope="col">$ 19</th>
+                  <th scope="col">$ 69</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Simple Install</th>
+                  <td>
+                    <div class="circle bg-success mx-auto justify-content-between">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Unlimited Projects</th>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">After hours Support</th>
+                  <td>
+                    <div class="circle bg-danger mx-auto">
+                      <i class="fa fa-times"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Unlimited Storage</th>
+                  <td>
+                    <div class="circle bg-danger mx-auto">
+                      <i class="fa fa-times"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-danger mx-auto">
+                      <i class="fa fa-times"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Dedicated Server</th>
+                  <td>
+                    <div class="circle bg-danger mx-auto">
+                      <i class="fa fa-times"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class=" circle bg-danger mx-auto">
+                      <i class="fa fa-times"></i>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="circle bg-success mx-auto">
+                      <i class="fa fa-check"></i>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td><button class="btn">Subscribe Now</button></td>
+                  <td><button class="btn">Subscribe Now</button></td>
+                  <td><button class="btn">Subscribe Now</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Subscribe for updates and free resources</h3>
+    <div class="subscribe">
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <div class=" input-group m-auto">
+            <input type="text" class="form-control" placeholder="You@yoursite.net"
+              aria-label="You@yoursite.net username" aria-describedby="basic-addon2" />
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>Don’t worry, we’ll only send you the best stuff - no spam.</p>
+  </section>
+
+  <!-- carousel------------------------------------------------------------------------------------ -->
+  <!-- class="owl-carousel owl-theme" -->
+  <section class="owlcarousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/partner1.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner2.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner3.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner4.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner5.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner6.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner7.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner8.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner9.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner10.png" alt="Owl Image" />
+            </div>
+            <div class="item">
+              <img src="images/partner11.png" alt="Owl Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer ------------------------------------------------------------------------------------->
+
+  <footer class="details">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="left-side">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+            <h5><a href="#">hello@pillerstudio.net</a></h5>
+            <p>&copy; Copyright 2020 Medium Rare - All Rights Reserved</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="right-side">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-camera"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script -->
+
+  <!-- owl carousel -->
+
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="./dist/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+<!-- script------------------------------------------------------------------------------ -->
+
+  <script>
+    $(document).ready(function() {
+      $('#slide-cart').css('display', 'none');
+    })
+    $('#cartButton').on('click', function () {
+      $('#slide-cart').css({'display': 'block'});
+    })
+    $('#within-close').on('click', function() {
+      $('#slide-cart').css({'display': 'none'});
+    })
+  </script>
+
+
+  <!-- modal -->
+  <script>$('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })</script>
+  <script>
+
+
+    // owl curosal
+    $("#owl-demo").owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 1000,
+      // autoPlayspeed: 3000,
+      loop: true,
+      pullDrag: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        540: {
+          items: 2
+        },
+        720: {
+          items: 4
+        },
+        860: {
+          items: 5
+        },
+        1140: {
+          items: 6
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
